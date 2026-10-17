@@ -12,6 +12,44 @@ whisper_mlcd_lab_session.py
 
 The script transcribes speech, aligns words to the recording, and creates timestamped transcript files and ELAN `.eaf` annotations.
 
+
+## About this project and attribution
+
+This repository contains a small lab-session workflow and helper script built **around WhisperX**. It does **not** implement or claim authorship of the WhisperX speech-recognition/alignment system itself.
+
+WhisperX is developed by Max Bain and contributors and is available at:
+
+https://github.com/m-bain/whisperX
+
+The script in this repository uses WhisperX as an external dependency and provides a simplified workflow for:
+
+- processing one file or a folder of recordings,
+- exporting timestamped text,
+- creating ELAN `.eaf` annotations, and
+- preserving existing outputs so completed files are not overwritten accidentally.
+
+This repository is not an official WhisperX repository and is not maintained by the WhisperX authors.
+
+### WhisperX citation
+
+If you use WhisperX in research, please cite the paper requested by the WhisperX authors:
+
+> Bain, M., Huh, J., Han, T., & Zisserman, A. (2023). *WhisperX: Time-Accurate Speech Transcription of Long-Form Audio*. INTERSPEECH 2023.
+
+```bibtex
+@article{bain2022whisperx,
+  title={WhisperX: Time-Accurate Speech Transcription of Long-Form Audio},
+  author={Bain, Max and Huh, Jaesung and Han, Tengda and Zisserman, Andrew},
+  journal={INTERSPEECH 2023},
+  year={2023}
+}
+```
+
+### Licensing note
+
+WhisperX itself is distributed under the **BSD 2-Clause License**. This repository installs WhisperX as an external dependency rather than redistributing the WhisperX source tree. Any reuse of WhisperX remains subject to the license and other terms of the upstream project and of the models/dependencies used with it.
+
+---
 ## Repository structure
 
 ```text
