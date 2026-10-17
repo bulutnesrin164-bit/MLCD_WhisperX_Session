@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Participant / research media
+input/*
+!input/.gitkeep
+
+# Generated transcripts and outputs
+transcripts/*
+!transcripts/.gitkeep
+
+# Media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mpeg
+*.mpg
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# WhisperX outputs
+*.srt
+*.vtt
+*.json
+*.tsv
+*.eaf
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# Original Word guide
+MLCD_WhisperX_Guide.docx
+MLCD_WhisperX_Guide*.docx
